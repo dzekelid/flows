@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here
 x-kinRank: "7"
 x-alexaRank: "3011"
 tags: Flows
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/apis.md
 specificationVersion: "0.14"
 apis:
@@ -126,6 +126,62 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-0flowavailability-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-0flowavailability-json-get-openapi.md
+- name: Traffic API - Traffic Flow Availability Data
+  x-api-slug: 6-0flowavailability-json-get
+  description: |-
+    *Flow availability requests allow you to see what traffic flow coverage exists in the current Traffic API.*
+
+    T<i></i>he Server also supports an XML response.
+
+
+
+    * **app_id**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+    * **app_code**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://tiles.traffic.cit.api.here.com//traffic/6.0/tiles/8/133/86/256
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-0flowavailability-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-0flowavailability-json-get-openapi.md
+- name: Traffic API - Flow using Proximity returning Additional Attributes
+  x-api-slug: 6-1flow-json-get
+  description: |-
+    *Request traffic flow information using proximity, returning shape and functional class*
+
+    The request is made through combining the `prox` parameter and the `responseattributes` in the request URL. The server also supports an XML response.
+
+
+
+    * **prox**  `prox`
+     \- A type of spatial filter. Proximity specifies a circle to search using a latitude, a longitude, and a radius in meters.    e.g. `52.515,13.377,100`
+
+    * **responseattributes**  `multi-enum`
+     \- A list indicating optional information to be included in the traffic flow data response
+
+     Valid values are : `fc` - functionalClass, `sh` - shape
+
+    * **app_id**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+    * **app_code**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://tiles.traffic.cit.api.here.com//traffic/6.0/tiles/8/133/86/256
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-1flow-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/here/6-1flow-json-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://developer.here.com/blog/feed

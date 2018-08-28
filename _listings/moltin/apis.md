@@ -8,11 +8,286 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Flows
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Moltin - Get all flows
+  x-api-slug: v2flows-get
+  description: Get all flows.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flows-get-openapi.md
+- name: Moltin - Create a flow
+  x-api-slug: v2flows-post
+  description: Create a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flows-post-openapi.md
+- name: Moltin - Get a flow
+  x-api-slug: v2flowsflowid-get
+  description: Get a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-get-openapi.md
+- name: Moltin - Update a flow
+  x-api-slug: v2flowsflowid-put
+  description: Update a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-put-openapi.md
+- name: Moltin - Delete a flow
+  x-api-slug: v2flowsflowid-delete
+  description: Delete a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-delete-openapi.md
+- name: Moltin - Get all entries on a flow
+  x-api-slug: v2flowsflowslugentries-get
+  description: Get all entries on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugentries-get-openapi.md
+- name: Moltin - Get all fields on a flow
+  x-api-slug: v2flowsflowslugfields-get
+  description: Get all fields on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugfields-get-openapi.md
+- name: Moltin - Create a flow
+  x-api-slug: v2flows-post
+  description: Create a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flows-post-openapi.md
+- name: Moltin - Get a flow
+  x-api-slug: v2flowsflowid-get
+  description: Get a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-get-openapi.md
+- name: Moltin - Update a flow
+  x-api-slug: v2flowsflowid-put
+  description: Update a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-put-openapi.md
+- name: Moltin - Delete a flow
+  x-api-slug: v2flowsflowid-delete
+  description: Delete a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-delete-openapi.md
+- name: Moltin - Get all entries on a flow
+  x-api-slug: v2flowsflowslugentries-get
+  description: Get all entries on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugentries-get-openapi.md
+- name: Moltin - Get all fields on a flow
+  x-api-slug: v2flowsflowslugfields-get
+  description: Get all fields on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugfields-get-openapi.md
+- name: Moltin - Get all fields on a flow
+  x-api-slug: v2flowsflowslugfields-get
+  description: Get all fields on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugfields-get-openapi.md
+- name: Moltin - Get all fields on a flow
+  x-api-slug: v2flowsflowslugfields-get
+  description: Get all fields on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugfields-get-openapi.md
+- name: Moltin - Get all entries on a flow
+  x-api-slug: v2flowsflowslugentries-get
+  description: Get all entries on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugentries-get-openapi.md
+- name: Moltin - Get all entries on a flow
+  x-api-slug: v2flowsflowslugentries-get
+  description: Get all entries on a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowslugentries-get-openapi.md
+- name: Moltin - Delete a flow
+  x-api-slug: v2flowsflowid-delete
+  description: Delete a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-delete-openapi.md
+- name: Moltin - Delete a flow
+  x-api-slug: v2flowsflowid-delete
+  description: Delete a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-delete-openapi.md
+- name: Moltin - Update a flow
+  x-api-slug: v2flowsflowid-put
+  description: Update a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-put-openapi.md
+- name: Moltin - Update a flow
+  x-api-slug: v2flowsflowid-put
+  description: Update a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-put-openapi.md
+- name: Moltin - Get a flow
+  x-api-slug: v2flowsflowid-get
+  description: Get a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-get-openapi.md
+- name: Moltin - Get a flow
+  x-api-slug: v2flowsflowid-get
+  description: Get a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flowsflowid-get-openapi.md
+- name: Moltin - Create a flow
+  x-api-slug: v2flows-post
+  description: Create a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flows-post-openapi.md
+- name: Moltin - Create a flow
+  x-api-slug: v2flows-post
+  description: Create a flow.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flows/master/_listings/moltin/v2flows-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://mocklab.api.gallery.streamdata.io
